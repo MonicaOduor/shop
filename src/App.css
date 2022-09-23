@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic&display=swap");
+body {
+  font-family: "Livvic", sans-serif !important;
+  background-color: #faeee7;
+}
+.menu-icon {
+  border: none;
+}
+.small-nav {
+  background-color: #ffc6c7;
+  cursor: pointer;
+  padding: 0px 3px 0px 3px;
+}
+.small-nav small:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* Logo */
+.logo {
+  -webkit-animation: logo 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: logo 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  color: rgb(16, 46, 16);
+}
+@-webkit-keyframes logo {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes logo {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Medium devices (landscape tablets, 900px */
+@media only screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 850px;
+  }
+}
+.navlink {
+  font-weight: 1200;
+  text-align: end !important;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.navlink:hover {
+  color: inherit;
+}
+.cart-number {
+  position: absolute;
+  height: 15px;
+}
+.categories {
+  font-size: 0.8em;
+}
+.product-card {
+  background: inherit;
+  border: none;
+}
+.product-card img {
+  object-fit: contain;
+  height: 12rem !important;
+  width: 100%;
+}
+.product-card:hover {
+  /* border: 1px solid red !important; */
+  border: 1px solid rgb(183, 58, 58) !important;
+  -webkit-transform-origin: 100% 0% !important;
+  transform-origin: 100%;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 10px;
+}
+/* Footer */
+.footer {
+  background: url("https://hereford.qodeinteractive.com/wp-content/uploads/2018/03/footer-background-2.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+  color: #fff7ec;
+}
+/*About Us */
+.about-us{
+  background: url('https://hereford.qodeinteractive.com/wp-content/uploads/2018/03/h4-slider-img-2.jpg') ;
+  background-size:cover;
+  background-position:center center;
+  padding: 5rem;
+}
+.about-us h2{
+  font-weight: 900;
+}
+.about-us-text{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  }
+@media(max-width: 768px){
+.about-us-text{
+  font-size: 0.9rem
+  }
+}
+@media(max-width: 600px){
+  .about-text2{
+   display: none;
+  }
+}
