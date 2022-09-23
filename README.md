@@ -1,4 +1,4 @@
-# Responsive Resume - Monicah Oduor
+# Gfresh - ecommerce app
 
 GFresh, a simple ecommerce site to demonstrate the use of the React Context API.
 
@@ -12,7 +12,7 @@ View live [here](https://monicaoduor.github.io/shop)
 
 ### Mobile
 <img alt='Mobile display' src='./src/Assets/img/mobile-display.jpg' width=300 />
-z
+
 
 ## Technologies
 <li>ReactJS</li>
