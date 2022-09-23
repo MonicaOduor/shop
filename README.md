@@ -12,7 +12,7 @@ View live [here](https://monicaoduor.github.io/shop)
 
 ### Mobile
 <img alt='Mobile display' src='./src/Assets/img/mobile-display.jpg' width=300 />
-z
+
 
 ## Technologies
 <li>ReactJS</li>
