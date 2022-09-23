@@ -1,5 +1,6 @@
 import { products } from "../data";
 import ProductCard from "../Components/ProductCard";
+import CardImg from "../Components/CardImg";
 
 const Store = () => {
   return (

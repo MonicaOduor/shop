@@ -45,12 +45,7 @@ body {
     opacity: 1;
   }
 }
-/* Medium devices (landscape tablets, 900px */
-@media only screen and (min-width: 1200px) {
-  .logo {
-    margin-right: 850px;
-  }
-}
+
 .navlink {
   font-weight: 1200;
   text-align: end !important;
