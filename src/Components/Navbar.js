@@ -27,7 +27,6 @@ function CollapsibleExample() {
       </Navbar.Toggle>
 
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto d-sm-none d-md-none d-lg-block"> </Nav>
         <Nav>
           <Link to="/" className="navlink ml-lg-5 mr-lg-4 ">
             Store
